@@ -1,0 +1,393 @@
+/* all media queries */
+
+/* ******** NAV BAR MOVE TO RIGHT ********** */
+
+@media  only screen and (max-width: 600px){
+    .nav ul .one{
+         width: 450px;
+     }
+ } 
+ 
+ @media  only screen and (max-width: 800px){
+     .nav ul ul li {
+          display: none;
+      }
+  } 
+ /*left arrow carousel  */
+
+ @media only screen and (max-width: 600px){
+    #aleft{
+        /* position: relative;
+        right: 300px;
+        width: 40px;
+        bottom: 150px;
+        opacity: 0.2; */
+        display: none;
+    }
+    
+}
+/* right arrow carousel */
+
+@media only screen and (max-width: 600px){
+    #aright{
+        /* position: relative;
+        left: 120px;
+        width: 30px;
+        bottom: 50px;
+        opacity: 0.2; */
+        display: none;
+    }
+}
+/* marquee */
+@media only screen and (max-width: 600px){
+    .marquee {
+     position: absolute;
+     top: 770px;
+     left: 75px;
+ }
+ }
+
+ /*       main       4      */
+
+ @media only screen and (max-width: 600px){
+    .main4{
+        flex-direction: column;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    .col1, .col2, .col3, .col4{
+        line-height: 130px;
+        height: 200px;;
+        justify-content: space-around; 
+    }
+}
+/*            What                           we                       are                 doing         */
+
+@media only screen and (max-width: 600px){
+    #What{
+        position: relative;
+         left: 55px;
+         
+    }
+    #are{
+        
+        position: relative;
+        left: 255px;
+    }
+    #are{
+        width: 100%;
+    }
+}
+
+/*   What     we    are       doing         */
+
+@media only screen and (max-width: 600px){
+    .wrappper{
+        position: relative;
+        left: -390px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .logo2{
+    position: relative;
+    left: -119px;
+    top: -560px;
+}   
+}
+
+
+@media only screen and (max-width: 600px){
+    .heading2{
+        position: relative;
+        top: -550px;
+        left: -25px;
+    }
+}
+
+/* UPCOMING EVENTS MISION AND PROJECTS  */
+
+
+@media only screen and (max-width: 600px){
+    .main6{
+        position: relative;
+        top: 1600px;
+        left: -600px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #ban2{
+        position: relative;
+        top: 150px;
+        left: -450px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #imaagee, #gallery{
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #mov{
+        position: relative;
+        top: 300px;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    .design{
+        position: relative;
+        left: -80px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #ban4{
+        position: relative;
+        top: 300px;
+        left: -450px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .margin{
+        position: relative;
+        top: 300px;
+        left: -130px;
+    }
+}
+/* /* ****&&&#######################################&&&& */
+                        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^FOOTER^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* 
+/* ***** *************************************** */
+/* ******************************************* */
+
+/* ************************************** */
+/* * */
+/* * */
+/* * */
+/* * */
+/* *********************************** */
+/* * */
+/*          **********************   *************************   *******************    */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* ************************ */
+
+footer {
+    display: block;
+    background-color: #0975c7;
+    
+    position: relative;
+    bottom: -350px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #copyright{
+      position: relative;
+      left: 250px;
+      color: white;
+  }
+  #end{
+      list-style: none;
+      
+  }
+ .mainfooter{
+     padding: 791px;
+     font-family: Arial, Helvetica, sans-serif;
+     width: 0px;
+     height: 0%;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.8);
+     position: relative;
+    bottom: -350px;
+    padding-top: 10%;
+    padding-bottom:10%;
+ }
+ #end{
+     line-height: 30px;
+     width: 500px;
+     position: relative;
+      right: 30px;
+ }
+ .karachi{
+     width: 500px;
+     position: relative;
+     left: -680px;
+     bottom: -30px;
+ }
+ .office{
+    position: relative;
+    left: -680px;
+    bottom: -25px;
+ }
+ .ima{
+     vertical-align: middle;
+ }
+ #maail{
+    text-decoration: none;
+    color: white;
+ }
+ #maail:hover{
+     cursor: pointer;
+ }
+ #z{
+     position: relative;
+     left: 150px;
+     top: -154px;
+ }
+ .uan{
+    position: relative;
+    left: -650px;
+    bottom: -35px;
+ }
+ #useful{
+     color: white;
+     width: 300px;
+     font-family: 'Merriweather', Helvetica, sans-serif;
+     position: relative;
+    bottom: 280px;
+    left: -265px;
+ }
+ #line10{
+     color: #62a147;
+     position: relative;
+    bottom: 280px;
+    left: -170px;
+ }
+ .us{
+     width: 500px;
+ }
+ #wwith{
+     color: white;
+     font-family: 'Merriweather', Helvetica, sans-serif;
+     position: relative;
+    bottom: 340px;
+    left: -44px;
+ }
+ #eff{
+    position: relative;
+    bottom: 300px;
+    left: 140px;
+ }
+ #tea{
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+ }
+ #inn{
+    position: relative;
+    bottom: 300px;
+    left: 160px;
+ }
+
+ #yu{
+    position: relative;
+    bottom: 300px;
+    left: 170px;
+ }
+
+
+@media only screen and (max-width: 600px){
+    footer{
+        position: relative;
+        bottom: -1400px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #copyright{
+    position: relative;
+        left: -1px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #wwidth, #useful{
+        color: orange;
+    }
+}
+@media only screen and (max-width: 600px){
+    /* #useful{
+        position: relative;
+        bottom: -1000px;
+        left: -710px;
+        top: 75px;
+    } */
+}
+@media only screen and (max-width: 600px){
+    /* #line10{
+        position: relative;
+        top: 80px;
+        left: -620px;
+    } */
+}
+@media only screen and (max-width: 600px){
+    /* .mainfooter{
+        padding: 261px;
+        background-color: rgba(0, 0, 0, 0.8);
+    } */
+}
+@media only screen and (max-width:600px){
+    /* .us{
+        position: relative;
+        bottom: -720px;
+        left: -740px;
+    } */
+}
+@media only screen and (max-width:600px){
+    /* .mainfooter{
+        position: relative;
+        bottom: -1400px;
+        width: 100%;
+    } */
+}
+@media only screen and (max-width:600px){
+    /* .office,.karachi,.uan{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+}
+@media only screen and(max-width: 600px){
+    /* .karachi{
+        position: relative;
+        right: 1500px;
+
+    }*/
+
+    .mainfooter{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 100px;
+    /* position: relative;
+   
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 80px; */
+    width: 50%;
+    min-width: 30%;
+        } 
+} 
+/* .size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+} */

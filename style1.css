@@ -1,0 +1,450 @@
+/* ************************************************ LOGO & NAVIGATION BAR ****************************** */
+.main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: left;
+    background-color: #f7f8fa;
+    padding: 8px;
+    line-height: 25px;
+    
+}
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* li:hover{
+   -webkit-animation: rightThenLeft 0.3s linear;
+    animation: forwards;
+    animation-delay: 0.3s;
+} */
+#H{
+    background-color: #0975c7 !important;
+    color: white;
+    width: 70px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+
+}
+.one:hover{
+    background-color: #0975c7 !important;
+    color: white;
+    width: 70px;
+    
+}
+#A{
+    width: 70px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+#S{
+    width: 140px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+#F{
+    width: 140px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+#M{
+    width: 70px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+#N{
+    width: 70px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+#D{
+    width: 170px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+#A:hover{ 
+    width: 130px;
+}
+#S:hover{
+    width: 200px;
+}
+#F:hover{
+    width: 140px;
+}
+#M:hover{
+    width: 130px;
+}
+#N:hover{
+    width: 130px;
+}
+ #D:hover{
+    width: 140px;
+    
+    margin-right: 100px;
+} 
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^  CREATING ARROWS FOR THE NAV BAR  ^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  /* i{
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  } */
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+
+.nav ul{
+    list-style: none;   
+}
+.nav ul li{
+    color: black;
+    width: 180px;
+    border: 1px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    float: left;
+    position: relative;
+    font-size: 15px;
+}
+.nav ul li:hover{
+    background-color: #0975c7;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.nav ul li{
+    background-color:rgba(241, 241, 241, 0.808);
+}
+.nav ul ul{
+    display: none;
+}
+.nav ul li:hover > ul{
+    display: block;
+    margin-top: 5px;
+}
+.nav ul ul ul{
+    margin-left: 180px;
+    top: 0px;
+    position: absolute;
+}
+.nav ul ul ul ul{
+    margin-right: 150px;
+    top: 0px;
+    position: absolute;
+}
+#big{
+    width: 300px;
+
+}
+#all{
+    position: absolute;
+    right: 178px;
+    top: 5px;
+}
+.nav #list .one{
+    background-color:  #f7f8fa;
+}
+/* ******************************************* NAV BAR ENDS **************************************** */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    COVER PICTURE    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+#cover{
+    /* background-color: rgb(0, 0, 0, 0); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+    /* max-height: 100px;
+    min-height:100px ; */
+    width: 100%;
+    /* max-width: 1300px;
+    min-width: 100px; */
+    opacity: 1;
+    /* margin-left: -55px; */
+    /* margin-right:150px; */
+}
+/* .picture{
+    /* display: block; */
+    /* background-color: #fff; */
+/* } */
+#aleft{
+    position: relative;
+    right: 50px;
+    width: 120px;
+    height: 100px;
+    bottom: 100px;
+    opacity: 0.2;
+}
+
+
+#aleft:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#aright{
+    position: relative;
+    left: 1150px;
+    width: 120px;
+    height: 100px;
+    bottom: 105px;
+    opacity: 0.2;
+}
+
+#aright:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.picture {
+    width: 100%;
+}
+
+/* #############################        COVER          PICTURE           ENDS ############################# */
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MARQUEE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.marquee{
+    align-items: center;
+    display: flex;
+    font-size: 11pt;
+    background-color: #0975c7;
+    color: white;
+    width: 70%;
+    max-width: 70%;
+    min-width: 180px;
+    height: 2%;
+    min-height: 15px;
+    max-height: 2%;
+    line-height: 12px;
+    /*font-weight: bold;*/
+    position: relative;
+    top: -25px;
+    right: 125px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.first{
+    color: #00ff0d;
+    margin: 1%;
+    
+}
+.details{
+    color: blue;
+}
+/* ******************* HEADING ------------------------ AND ------------------   PARAGRAPH **************** */
+#intro{
+    
+    color: #0975c7;
+    font-family: 'Merriweather', serif;
+    font-size: 2.3em;
+    position: relative;
+    top: 45px;
+    left: -24px;
+    font-weight: bold;
+    width: 80%;
+    max-width: 800%;
+    min-width: 205px;
+    height: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    border: 10px;
+}
+#duction{
+    
+    font-family: 'Merriweather', serif;
+    position: relative;
+    left: 100px;
+    top: -180px;
+    color: #62a147;
+    font-size: 2.3em;
+    font-weight: bold;
+    width: 80%;
+    max-width: 800%;
+    min-width: 205px;
+    height: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    border: 10px;
+}
+.main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f7f8fa;
+    position: relative;
+    top: -45px;
+    
+}
+.para{
+    position: relative;
+    top: 50px;
+}
+
+#text{
+    font-family: "Open Sans", serif;
+    font-size: 1em;
+    font-size: 15px;
+    transition: 1s;    
+    font-weight: 600; 
+    color: grey;
+    font-family: 'Open Sans', serif;
+    line-height: 34px;
+    word-spacing: 5px;
+    margin-top: 0%;
+    margin-right: 18%;
+    margin-left: 18%;
+    text-decoration: none;
+    position: relative;
+    top: -340px;
+    text-align: justify;
+    /* left:0px; */
+    /* right:40px; */
+    
+}
+#icon{
+    position: relative;
+    top: -355px;
+    left: 18px;
+}
+.icon{
+    position: relative;
+    top: 250px;
+    left: -128px;
+}
+#line1{
+    color: rgb(124,185,110);
+    height: 15px;
+    font-weight: bolder;
+    vertical-align: text-bottom;
+    position: relative;
+    top: -322px;
+    left: -35px;
+}
+#line2{
+    color: rgb(124,185,110);
+    height: 15px;
+    font-weight: bolder;
+    vertical-align: text-bottom;
+    position: relative;
+    top: -380px;
+    left: 60px;
+}
+
+/* ***************** PARAGRAPH       ----------------    ENDS ***********************************   */
+
+/* ################         COUNTING     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        NUMBERS  ################## */
+.main4{
+    background-color: #316dc3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+     /* padding-left: 50px;
+    padding-right: 50px;  */
+    padding-bottom: 80px;    
+}
+
+h5{
+    text-transform: uppercase;
+   
+   
+}
+.monthly{
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+}
+.large{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+     margin: 5%; 
+}
+.alpha{
+    font-size: 18px;
+    position: relative;
+    left: -12px;
+    top: 20px;
+    color: rgb(255, 255, 255);
+}
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+#i1{
+    width: 40px;
+    height: 40px;
+}
+#i2{
+    width: 40px;
+    height: 40px;
+}
+#i3{
+    width: 40px;
+    height: 40px;
+}
+#i4{
+    width: 40px;
+    height: 40px;
+}
+.col1 , .col2, .col3, .col4{
+    line-height: 20px;
+}
+.col1{
+    margin-left: 10%;
+}
+.col4{
+    margin-right: 10%;
+}
+.col3, .col4{
+    line-height: 25px;
+}
+.col2{
+line-height: 21px;
+}
+.main4{
+     transform: translate(0px, -135px); 
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%  COUNTING NUMBERS ENDS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+

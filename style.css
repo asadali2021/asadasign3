@@ -1,0 +1,217 @@
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Margin and padding for the page &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ************************** FIRST TOP BLUE BAR STARTS ******************************* */
+/* #################  [.main ] GIVING BACKGROUND COLOR TO THE TOP BAR #################### */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #0975c7;
+    padding: 10px;
+    line-height: 30px;
+    
+    
+}
+#logo{
+    position: relative;
+    left: 100px;
+}
+
+/* .one, .two, .three{
+border: 2px solid red;
+width: 250px;
+} */
+/* .one{
+    flex: 1;
+}
+.two{
+    flex: 3;
+}
+.three{
+    flex: 1;
+} */
+/* @media only screen and (min-width: 800px){
+body{
+    background-color: bisque;
+    color: blue;
+}
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: gold;
+        color: white;
+    }
+    .one, .two, .three{
+        margin: 5px 10px 5px 10px;
+        text-align: center;
+    }
+    .one, .two, .three{
+        animation: linear;
+        animation-delay: 800ms;
+        transition-delay: 100ms;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .one, .two, .three{
+        margin: 5px 10px 5px 10px;
+        
+    }
+    body{
+        background-color: khaki;
+        color: white;
+    }
+} */
+/* ***************************** MULTIMEDIA ICONS ********************************************************** */
+/* ADJUSTING SIZE */
+#facebook{
+    width: 25px;
+    height: 24px;
+}
+#instagram{
+    width: 25px;
+    height: 24px;
+}
+#twitter{
+    width: 25px;
+    height: 24px;
+}
+#whatsapp{
+    width: 25px;
+    height: 24px;
+}
+#youtube{
+    width: 25px;
+    height: 24px;
+}
+/* ADJUSTING POSITION */
+.labels{
+ position: relative;
+ top: 5px;
+}
+/* LIST-STYLE OF UN-ORDERED LIST ---- display in-line by using flex ---- class=icon */
+.label{
+    list-style: none;
+    display: flex;
+}
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  ~ ~  ICONS IN-LINE DISTANCE BY USING MARGIN-RGHT ~ ~ ~  ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+.lii{
+    margin-right: 10px; 
+}
+/* ************************************* Display of DONATION BUTTONS *********************************************** */
+.buttons{
+    list-style: none;
+    display: flex;
+}
+/* ********** POSITION OF DONATION BUTTONS ********** */
+.button{
+    position: relative;
+    right: 1px;
+}
+/* ************************ Styling ------- of -------  DONATION --------- BUTTONS ************************* */
+.UK{
+    padding: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid grey;
+    font-size: 11px;
+    line-height: 7px;
+    color: grey;
+    width: 82px;
+    height: 28px;
+}
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  ~ ~  BUTTONS IN-LINE DISTANCE BY USING MARGIN-RGHT ~ ~ ~  ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+.button1{
+    margin-right: 10px;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HOVERS OF TOP BLUE BAR %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.icon:hover{
+    cursor: pointer;
+}
+.lii:hover{
+    background-color: white;
+    
+}
+.UK:hover{
+    cursor: pointer;
+}
+/* ********************* White color to the font ******************** */
+#white{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    /* padding: 5px; */
+}
+
+/* ******************** FIRST TOP BLUE BAR ENDS ******************** */
+/* 
+                  *
+                              *
+
+                                          *
+                                                        *
+
+                                                                               */
+
+ 
+#ban1:hover{
+    border: 2px #0975c7 solid;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.4s;
+}                                                                               
+#ban2:hover{
+    border: 2px #0975c7 solid;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#mov:hover{
+    border: 2px #0975c7 solid;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#ban4:hover{
+    border: 2px #0975c7 solid;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.wrappper > #apple:hover{
+    box-shadow: 5px 5px 5px 5px #0975c7d2;
+    transition: 0.9s; 
+    cursor: pointer;
+}
+.wrappper > #mango:hover{
+    box-shadow: 5px 5px 5px 5px #0975c7d2;
+    transition: 0.9s; 
+    cursor: pointer;
+}
+.wrappper > #banana:hover{
+    box-shadow: 5px 5px 5px 5px #0975c7d2;
+    transition: 0.9s; 
+    cursor: pointer;
+}
+.wrappper > #orange:hover{
+    box-shadow: 5px 5px 5px 5px #2ecc71;
+    transition: 0.9s; 
+    cursor: pointer;
+}
+.wrappper > #grapes:hover{
+    box-shadow: 5px 5px 5px 5px #2ecc71;
+    transition: 0.9s; 
+    cursor: pointer;
+}
+.wrappper > #peach:hover{
+    box-shadow: 5px 5px 5px 5px #2ecc71;
+    transition: 0.9s; 
+    cursor: pointer;
+}

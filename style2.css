@@ -1,0 +1,170 @@
+/* ********************       WHAT      WE     ARE     DOING        *********************************     */
+.main5{
+    background-color: #f7f8fa;
+    padding-bottom: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: -45px;
+    width: 100%;
+}
+#What{
+    color: #0975c7;
+    font-family: 'Merriweather', serif;
+    font-size: 2.3em;
+    position: relative;
+    top: -60px;
+    left: 575px; 
+    font-weight: bold;
+    width: 80%;
+    max-width: 800%;
+    min-width: 205px;
+    height: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    /* border: 10px; */
+}
+#are{
+    font-family: 'Merriweather', serif;
+    position: relative;
+    left: 775px;
+    top: -285px; 
+    color: #62a147;
+     font-size: 2.3em; 
+    font-weight: bold;
+    width: 100%;
+    max-width: 800%;
+    min-width: 405px;
+    height: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    /* border: 10px;   */
+}
+
+/* .boxes{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    align-items: center;
+   
+}*/
+ h4{
+    text-align: center;
+    margin-top: 5%;
+    line-height: 10px;
+    font-size: 19px;
+    color: #0975c7;
+    font-family: "Merriweather", serif;
+
+} 
+/* .os{
+    align-items: center;
+    position: relative;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+} */
+#fav{
+    position: relative;
+    top: -190px;
+    left: -50px;
+}
+#line3 {
+    color: rgb(124,185,110);
+    height: 15px;
+    font-weight: bolder;
+    vertical-align: text-bottom;
+    position: relative;
+    top: -155px;
+    left: 0px;
+}
+.logo2{
+    position: relative;
+    left: 419px;
+    top: -20px;
+}
+#line4{
+    color: rgb(124,185,110);
+    height: 15px;
+    font-weight: bolder;
+    vertical-align: text-bottom;
+    position: relative;
+    top: -214px;
+    left: -110px;
+}
+.wrappper{
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    left: -200px;
+    top: 50px;
+}
+.card{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.575);
+    transition: 0.8s;  
+    width: 320px;
+    height: 200px;
+    background: #fff;
+    /* text-align: center; */
+    font-size: 16px;
+    font-family: 'Merriweather' ,serif;
+    float: left;
+    margin: 20px;
+    line-height: 30px;
+    
+}
+.img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 50px;
+}
+
+.heading4{
+    position: relative;
+    top: 50px;
+}
+
+/* ********************  WHAT WE ARE DOING ENDS ************************************************** */
+
+
+.mission{
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+#projects{
+    position: relative;
+    right: 500px;
+}
+.banner1{
+    background-color: #f7f8fa;
+    padding: 40px;
+    width: 20%;
+    height: 5px;
+    line-height: 0px;
+    border: 1px solid #f7f8fa;
+    /* border-radius: 30%; */
+    display: inline-block;
+    
+}
+.design{
+    width: 1500px;
+    margin: auto;
+    margin-top: 40px; 
+    text-align: center;
+    line-height: 150px;
+    height: 150px;
+    display: inline-block;
+    border-spacing: 5px 15px;
+}
+#mov{
+    position: relative;
+    top: 150px;
+    right: 840px
+}

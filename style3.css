@@ -1,0 +1,181 @@
+
+.margin{
+    margin: 35%;
+    text-align: left;
+    /* background-color: #fff; */
+    position: relative;
+    top: -800px;
+    left: 400px;
+}
+
+#mark{
+    width: 350px;
+    height: 280px;
+    line-height: 40px;
+    color: rgb(75, 74, 74);
+    background-color: #ffffff; 
+    scroll-behavior: smooth;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#up{
+    color: #0975c7;
+    position: relative;
+    top: -72px;
+    left: 0px;
+}
+
+#top{
+    opacity: 0.5;
+    position: fixed;
+    left: 1460px;
+    bottom: 0px;
+}
+#top:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#projects{
+    position: relative;
+    top: 0%;
+    right: 0%;
+    left: 10%;
+    bottom: 0%;
+    color: #0975c7;
+}
+#line5{
+    position: relative;
+    top: 0%;
+    right: 0%;
+    left: 10%;
+    bottom: 0%;
+    color: rgb(124,185,110);
+}
+#line6{
+   color: rgb(124,185,110);
+   position: relative;
+   top: -70px;
+}
+.size{
+    width: 300px;
+    height: 200px; 
+    position: relative;
+    left: -294px;
+   /* flex-wrap: wrap; */
+   
+}
+
+#may:hover, #june:hover, #july:hover, #aug:hover, #sept:hover{
+    width: 300px;
+    height: 240px;
+    transition: 0.9s;
+    position: relative;
+     top: 24px;
+     cursor: pointer;
+}
+.display{
+    display: inline-block;
+}
+#ban1{
+    position: relative;
+    left: -60px;
+}
+#ban2{
+    position: relative;
+    left: -30px;
+}
+#ban4{
+    position: relative;
+    left: -30px;
+}
+
+#hep, #housing, #it, #thar{
+    position: relative;
+    left: -140px;
+    top: -10px;
+}
+h5{
+    color: #0975c7;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: -25px;
+    left: -18px;
+}
+#imaagee{
+    color: #0975c7;
+    font-family: 'Merriweather', serif;
+    font-size: 2.3em;
+    position: relative;
+    top: -1295px;
+    left: 624px;
+    font-weight: bold;
+    width: 80%;
+    max-width: 800%;
+    min-width: 205px;
+    height: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    border: 10px;
+}
+#gallery{
+    font-family: 'Merriweather', serif;
+    position: relative;
+    left: 762px;
+    top: -1520px;
+    color: #62a147;
+    font-size: 2.3em;
+    font-weight: bold;
+    width: 80%;
+    max-width: 800%;
+    min-width: 205px;
+    height: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    border: 10px;
+}
+#iicon{
+    position: relative;
+    top: -718px;
+    left: 555px;
+}
+.con{
+    position: relative;
+    top: -995px;
+    left: 195px;
+}
+#line7{
+    position: relative;
+    top: -685px;
+    left: 495px;
+    color: #62a147;
+}
+#line8{
+    position: relative;
+    top: -748px;
+    left: 605px;
+    color: #62a147;
+}
+.all{
+    box-sizing: border-box;
+    position: relative;
+    top: -1660px;
+    left: 324px;
+    margin-right: 20px;
+    
+}
+.food{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-right: 20px;
+}
+.all::after{
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
