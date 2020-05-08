@@ -23,50 +23,7 @@
     left: 100px;
 }
 
-/* .one, .two, .three{
-border: 2px solid red;
-width: 250px;
-} */
-/* .one{
-    flex: 1;
-}
-.two{
-    flex: 3;
-}
-.three{
-    flex: 1;
-} */
-/* @media only screen and (min-width: 800px){
-body{
-    background-color: bisque;
-    color: blue;
-}
-}
-@media only screen and (max-width: 600px){
-    body{
-        background-color: gold;
-        color: white;
-    }
-    .one, .two, .three{
-        margin: 5px 10px 5px 10px;
-        text-align: center;
-    }
-    .one, .two, .three{
-        animation: linear;
-        animation-delay: 800ms;
-        transition-delay: 100ms;
-    }
-}
-@media only screen and (min-width: 1000px){
-    .one, .two, .three{
-        margin: 5px 10px 5px 10px;
-        
-    }
-    body{
-        background-color: khaki;
-        color: white;
-    }
-} */
+
 /* ***************************** MULTIMEDIA ICONS ********************************************************** */
 /* ADJUSTING SIZE */
 #facebook{
